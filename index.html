@@ -18,7 +18,7 @@
       }
     </style>
     <link rel="stylesheet" href="css/style.min.css?_v=20240921175333" />
-    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" href="/logo.png" />
     <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -48,52 +48,42 @@
               <ul class="menu__list">
                 <li class="menu__item">
                   <a
-                    data-goto=".about"
+                    data-goto=".page"
                     data-goto-header
-                    href="#"
+                    href="#posture"
                     class="menu__link"
                   >
-                    About event
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a
-                    data-goto=".faq"
-                    data-goto-header
-                    href="#"
-                    class="menu__link"
-                  >
-                    Key Questions
+                    Posture
                   </a>
                 </li>
                 <li class="menu__item">
                   <a
                     data-goto=".partners"
                     data-goto-header
-                    href="#"
+                    href="#joingame"
                     class="menu__link"
                   >
-                    Partners
+                    Event
                   </a>
                 </li>
                 <li class="menu__item">
                   <a
                     data-goto=".location"
                     data-goto-header
-                    href="#"
+                    href="#roadmap"
                     class="menu__link"
                   >
-                    Location
+                    Roadmap
                   </a>
                 </li>
                 <li class="menu__item">
                   <a
                     data-goto=".register"
                     data-goto-header
-                    href="#"
+                    href="#faq"
                     class="menu__link"
                   >
-                    Contacts
+                    FAQ
                   </a>
                 </li>
               </ul>
@@ -172,7 +162,7 @@
             </div>
           </div>
         </div>
-        <section data-watch="navigator" class="page__about about">
+        <section data-watch="navigator" class="page__about about" id="posture">
           <div class="about__container">
             <div class="about__top top-about">
               <div class="top-about__bg">
@@ -183,7 +173,7 @@
                   <div class="top-about__tile-bg">
                     <img src="img/about/title-bg.png" alt="Image" />
                   </div>
-                  <h2 class="top-about__title title-block">His Picture</h2>
+                  <h2 class="top-about__title title-block">Posture</h2>
                 </div>
                 <div class="top-about__items">
                   <div class="top-about__item">
@@ -244,7 +234,7 @@
             </div>
           </div>
         </section>
-        <section class="page__join join">
+        <section class="page__join join" id="joingame">
           <div class="join__container">
             <div
               data-watch-threshold="0.8"
@@ -255,7 +245,7 @@
               <div class="join__bg-title">
                 <img src="img/join/title-bg.png" alt="Image" />
               </div>
-              <h2 class="join__title title-block">Join Game</h2>
+              <h2 class="join__title title-block">Event</h2>
               <div class="join__label">Past Dubai Event</div>
             </div>
             <div
@@ -427,7 +417,7 @@
             </div>
           </div>
         </section>
-        <section class="page__attend attend">
+        <section class="page__attend attend" id="roadmap">
           <div class="attend__top top-attend">
             <div class="top-attend__bg">
               <img src="img/attend/road.png" alt="Image" />
@@ -618,7 +608,7 @@
             </div>
           </div>
         </section>
-        <section data-watch="navigator" class="page__faq faq">
+        <section data-watch="navigator" class="page__faq faq" id="faq">
           <div class="faq__container">
             <h2
               data-watch-threshold="0.4"
@@ -740,7 +730,7 @@
                 <div class="footer__top-contacts">
                   <div class="footer__top-contacts-row">
                     <h3>Social media</h3>
-                    <ul>
+                    <ul style="display: flex; flex-direction: row;">
                       <li>
                         <a href="https://x.com/captainbibi_x">
                           <svg
@@ -773,7 +763,7 @@
                           </svg>
                         </a>
                       </li>
-                      <li>
+                      <li style="margin-left: 10px;">
                         <a href="https://t.me">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
